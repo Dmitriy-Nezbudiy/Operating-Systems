@@ -1,0 +1,67 @@
+Work-case 1 
+-----------------------------------------
+1. What Git is used for and main actions
+-----------------------------------------
+Git is a distributed version control system. It is used to:
+- Track changes in project files.
+- Allow several developers to work on the same project simultaneously.
+- Save history and return to previous versions.
+- Create branches for parallel development.
+- Merge contributions safely from different collaborators.
+
+Main actions and commands in Git:
+- git init – create a new repository
+- git clone <url> – copy an existing repository
+- git status – check the state of files
+- git add <file> – stage changes for commit
+- git commit -m "message" – save a snapshot of changes
+- git log – view commit history
+- git diff – compare changes between versions
+- git branch – manage branches
+- git checkout <branch|commit> – switch branch or commit
+- git merge <branch> – merge branches
+- git pull / git fetch – get updates from remote
+- git push – send commits to remote repository
+- git tag – mark releases
+- git reset / git revert – undo changes
+- git stash – temporarily save unfinished work
+
+-----------------------------------------
+2. What a "commit" is and how it tracks changes
+-----------------------------------------
+A commit is a saved snapshot of the repository at a specific point in time.  
+Each commit contains:
+- A unique identifier (hash)
+- Author and timestamp
+- A commit message
+- Links to parent commits
+
+Commits allow tracking of changes by:
+- Keeping full project history (`git log`)
+- Showing who changed what and when (`git blame`)
+- Comparing versions (`git diff`)
+- Rolling back safely to earlier states (`git checkout`, `git revert`)
+
+This makes contributions transparent, reversible, and auditable.
+
+-----------------------------------------
+3. Dictionary of English terms
+-----------------------------------------
+- Repository – a storage location for project files and history
+- Commit – a saved snapshot of changes
+- Branch – an independent line of development
+- Merge – combining changes from different branches
+- Collaborator – a person with editing rights in the repository
+- Version Control – a system for tracking file changes
+- Push – send commits to a remote repository
+- Pull – download updates from a remote repository
+- Staging Area – a place where changes are prepared before committing
+- Snapshot – the saved state of files at a given time
+
+-----------------------------------------
+4. Conclusions
+-----------------------------------------
+In this Work-case I used Git to manage my files.  
+I created a public repository and uploaded this report.  
+All changes are tracked with commits, showing history and edits.  
+This exercise demonstrated how Git tracks changes, keeps history, and helps organize work efficiently.

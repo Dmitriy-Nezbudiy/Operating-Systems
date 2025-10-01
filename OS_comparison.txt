@@ -1,0 +1,7 @@
+OS Comparison Table: MacOS vs iOS (iPhone)
+
+| Feature / Criterion     | MacOS (Laptop)                                                                     | iOS (iPhone)                                                                                                                 |
+| ----------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Kernel Architecture** | Hybrid kernel (XNU: combination of microkernel + monolithic elements)              | Hybrid kernel (XNU-based, optimized for ARM architecture)                                                                    |
+| **User Interface (UI)** | Graphical Desktop Interface with menu bar, windows, Dock, Finder                   | Touch-based UI with icons, gestures, Control Center, Home Screen                                                             |
+| **System Calls**        | POSIX-compliant system calls; supports UNIX commands, file I/O, process management | Limited POSIX compliance; APIs accessible via iOS SDK; sandboxed app environment; system calls abstracted through frameworks |
